@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin xmlns:android="http://schemas.android.com/apk/res/android" id="com.walinns.walinnshybrid"
+    version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>walinnshybridapi</name>
+    <js-module name="walinnshybridapi" src="www/walinnshybridapi.js">
+        <clobbers target="cordova.plugins.walinnshybridapi" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="walinnshybridapi">
+                <param name="android-package" value="com.walinns.hybrid.walinnshybridapi" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+
+        <source-file src="src/android/com/walinns/hybrid/walinnshybridapi.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/APIClient.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/InAppNotification.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/ManifestMetaData.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/NotificationUtils.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/UserProfile.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WAConfig.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WADeviceInfo.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WAFCMManager.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WAInstallRefferer.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WAInstanceIDListenerService.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WAInstanceIDService.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WAIntentService.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WALifeCycle.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WalinnsAPI.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WalinnsAPIClient.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WAListenerService.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WALog.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WAMessingService.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WAPref.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WAProfile.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WAService.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WAUtils.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WAWorkerThread.java"
+            target-dir="src/com/walinns/hybrid" />
+
+        <source-file src="src/android/com/walinns/hybrid/WTLog.java"
+            target-dir="src/com/walinns/hybrid" />
+    </platform>
+</plugin>

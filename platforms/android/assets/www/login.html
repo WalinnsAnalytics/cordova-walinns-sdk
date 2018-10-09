@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Safe Hybrid App</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="custom.js"></script>
+    <link href="css/login.css" rel="stylesheet">
+
+    <script>
+
+     function login(){
+var userName = document.forms["loginForm"]["username"].value;
+var password = document.forms["loginForm"]["lastname"].value;
+
+
+      if(userName == ""){
+        alert("Enter Username");
+     }else if(password == ""){
+        alert("Enter Password");
+     }else{
+       trackEvent('Button', 'People who clicked login');
+      window.open("index.html")
+     }
+     }
+
+</script>
+
+</head>
+
+<body>
+
+<div id="login">
+
+    <h1>LOGIN</h1>
+
+    <form name="loginForm">
+
+        <div class="label">username</div>
+
+        <input type="text" name="username"><br/>
+
+        <div class="label">password</div>
+
+        <input type="password" name="lastname"><br/><br/>
+
+        <button onclick="login()" type="button" class="btn">Login</button>
+
+    </form>
+
+</div>
+
+</body>
+
+</html>

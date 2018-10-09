@@ -1,0 +1,50 @@
+{
+  "_from": "git+https://github.com/Walinns-Manivasagam/HybridSdkNew.git",
+  "_id": "walinns.manivasagam@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/walinns.manivasagam",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/Walinns-Manivasagam/HybridSdkNew.git",
+    "rawSpec": "https://github.com/Walinns-Manivasagam/HybridSdkNew.git",
+    "saveSpec": "git+https://github.com/Walinns-Manivasagam/HybridSdkNew.git",
+    "fetchSpec": "https://github.com/Walinns-Manivasagam/HybridSdkNew.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/Walinns-Manivasagam/HybridSdkNew.git#51c548e760a6ab2d9694d916607bd188bc3f2a73",
+  "_spec": "https://github.com/Walinns-Manivasagam/HybridSdkNew.git",
+  "_where": "/Users/walinnsinnovation/Downloads/cordova-workshop-master",
+  "author": {
+    "name": "Walinns innovaion"
+  },
+  "bugs": {
+    "url": "https://github.com/Walinns-Manivasagam/HybridSdkNew/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "com.walinns.walinnshybrid",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Mobile hybrid SDK",
+  "homepage": "https://github.com/Walinns-Manivasagam/HybridSdkNew#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "ISC",
+  "name": "walinns.manivasagam",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Walinns-Manivasagam/HybridSdkNew.git"
+  },
+  "version": "1.0.0"
+}
