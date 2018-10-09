@@ -1,7 +1,7 @@
 [![Walinns Logo](https://walinns.com/wp-content/uploads/2018/02/walinns.png)](https:walinns.com)
 
 
-Walinns Android SDK  
+Cordova Walinns plugin for Android    
 
 Real-time Mobile Analytics Platform. Walinns helps the app marketers to analyze and measure how users are using your mobile apps. 
 
